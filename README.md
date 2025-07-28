@@ -1,4 +1,4 @@
-# Stamper>
+# Stamper
  
 A Python script to add timestamps to photos, reminiscent of old digital cameras from the early 2010's. It extracts date and time information from image EXIF data or file metadata.
  
