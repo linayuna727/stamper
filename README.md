@@ -24,7 +24,12 @@ A Python script to add timestamps to photos, reminiscent of old digital cameras 
      ```bash
      pip install pillow
      ```
- 
+
+> [!WARNING]
+> Major Linux distributions (like Debian, Fedora and archlinux) don't allow installing Python modules this way. For instance, on Debian, you'll have to install it via `apt` (`sudo apt install pillow`) instead.
+>
+> If your distribution doesn't have a package for `pillow`, you can always create a virtual environment (`python3 -m venv venv`) and use that (`source venv/bin/activate`) to install Python packages. Remember that doing it this way will require you to enter that virtual environment every time you want to use the script.
+
 ## Usage
  
 Execute the script from your terminal.
@@ -55,7 +60,7 @@ To process a specific image file:
  ```bash
  python timestamper.py . --color "#FF00FF" --outline-color "#330033"
  ```
- *Note: If a custom `--color` is specified, you can also provide a `--outline-color`. If no `--outline-color` is provided, a black outline will be used by default.*
+ *Note: If a custom `--color` is specified, you can also provide `--outline-color`. If no `--outline-color` is provided, a black outline will be used by default.*
  
  ### Customizing Size and Position
  
