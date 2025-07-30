@@ -60,7 +60,7 @@ To process a specific image file:
  ```bash
  python timestamper.py . --color "#FF00FF" --outline-color "#330033"
  ```
- *Note: If a custom `--color` is specified, you can also provide a `--outline-color`. If no `--outline-color` is provided, a black outline will be used by default.*
+ *Note: If a custom `--color` is specified, you can also provide `--outline-color`. If no `--outline-color` is provided, a black outline will be used by default.*
  
  ### Customizing Size and Position
  
